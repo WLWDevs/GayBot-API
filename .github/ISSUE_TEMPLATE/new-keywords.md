@@ -20,4 +20,4 @@ assignees: ['EstrogenHRT', 'AriasADev']
 - [ ] Sexuality
 
 ### Checklist
-- [ ] I have checked the file doesn't exist in the /docs/ folder
+- [ ] I have checked the file doesn't exist in the /define/ folder

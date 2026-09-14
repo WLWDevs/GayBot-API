@@ -5,15 +5,27 @@ This is the core API that [GayBot-v2](https://github.com/GayBot-v2) calls to in 
 ### Tech Stack
 <div align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=fff" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff" alt="Docker" />
-  <img src="https://img.shields.io/badge/Express-339933?logo=express&logoColor=fff">
+  <img src="https://img.shields.io/badge/Bun-000000?logo=bun&logoColor=fff" alt="Bun" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?logo=cloudflareworkers&logoColor=fff" alt="Cloudflare Workers" />
 </div>
 
 ### Contributors
 <a href="https://github.com/Girls-Network/LGBT-API/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Girls-Network/LGBT-API" />
 </a>
+
+## 🚀 Running Locally
+This project runs on [Cloudflare Workers](https://workers.cloudflare.com/) and uses [Bun](https://bun.sh/) for package management.
+
+```bash
+bun install
+bun run dev      # starts a local Wrangler dev server
+bun run deploy   # deploys to Cloudflare
+```
+
+Keyword definitions live in the [`define/`](./define) folder, split into `gender/` and `sexuality/` subfolders, and are served as static assets bound to the Worker.
+
+Images live in `define/gifs/`, and are served directly at `/gifs/<path>` — e.g. `define/gifs/yuri/boop/1.gif` is served at `/gifs/yuri/boop/1.gif`.
 
 ## 📜 Important Documents
 ### Licence

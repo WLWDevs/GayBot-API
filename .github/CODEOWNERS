@@ -4,19 +4,16 @@
 # Global ownership - all files
 * @EstrogenHRT @AriasADev
 
-# Documentation
-/docs/ @EstrogenHRT @AriasADev
+# Definitions
+/define/ @EstrogenHRT @AriasADev
 
 # Source code
-/src/ @EstrogenHRT @AriasADev
-
-# Docker files
-Dockerfile @EstrogenHRT @AriasADev
-docker-compose.yml @EstrogenHRT @AriasADev
+main.ts @EstrogenHRT @AriasADev
 
 # Configuration files
 package.json @EstrogenHRT @AriasADev
 tsconfig.json @EstrogenHRT @AriasADev
+wrangler.jsonc @EstrogenHRT @AriasADev
 
 # GitHub workflow and configuration
 /.github/ @EstrogenHRT @AriasADev
